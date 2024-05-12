@@ -1,0 +1,51 @@
+
+#box_jorj{
+    font-family: Lucida Sans;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+button{
+    font-size: 1.8rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient(lightgray, gray);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: Lucida Sans;
+    padding-bottom: 2px;
+}
+button:hover{
+    background: linear-gradient(gray, white);
+}
+button:active{
+    background: linear-gradient(white, gray);
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    background: linear-gradient(lightgray, gray);
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    outline: black;
+}
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 100px;
+    margin: 5px;
+}
+body{
+    background-image: url("Dicewallpaper12.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
